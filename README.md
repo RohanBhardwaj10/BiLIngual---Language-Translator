@@ -25,4 +25,29 @@ This is a bilingual language translator web app built using **NLP** and **transf
 ---
 
 ## 📁 Project Structure
+📦 BiLIngual ┣ 📂 saved_model ┣ 📂 static ┣ 📂 templates ┣ 📄 app.py ┣ 📄 app.ipynb ┣ 📄 model_lang.ipynb ┣ 📄 requirements.txt ┣ 📄 Procfile ┗ 📄 README.md
+
+yaml
+Copy
+Edit
+
+---
+
+## ▶️ Run Locally
+
+```bash
+git clone https://github.com/RohanBhardwaj10/BiLIngual---Language-Translator.git
+cd BiLIngual---Language-Translator
+pip install -r requirements.txt
+python app.py
+Then open http://127.0.0.1:5000/ in your browser.
+
+📜 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+👨‍💻 Author
+Rohan Bhardwaj
+GitHub
+
+
 
