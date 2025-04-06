@@ -12,7 +12,7 @@ from transformers import M2M100ForConditionalGeneration, M2M100Tokenizer
 
 
 app = Flask(__name__)
-model_path = "saved_model"
+model_path = "facebook/m2m100_418M"
 tokenizer = M2M100Tokenizer.from_pretrained(model_path)
 model = M2M100ForConditionalGeneration.from_pretrained(model_path)
 
